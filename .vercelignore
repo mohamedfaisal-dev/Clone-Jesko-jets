@@ -1,0 +1,5 @@
+# Don't ignore LFS files
+!public/assets/*.png
+!public/assets/*.jpg
+!public/assets/*.webp
+!public/assets/*.avif
