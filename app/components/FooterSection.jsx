@@ -195,18 +195,11 @@ const FooterSection = () => {
 
                     {/* Right Text - Contact Info */}
                     <div className="hidden md:block absolute right-10 lg:right-20 top-1/2 -translate-y-1/2 text-right z-20 pointer-events-none">
-                        <div className="mb-6 p-4 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
-                            <p className="text-xs uppercase tracking-wider opacity-60 mb-3">Portfolio Contact</p>
-                            <a href="mailto:mohamedfaisal.dev@gmail.com" className="font-bold text-base mb-2 block hover:text-purple-400 transition-colors pointer-events-auto">
-                                mohamedfaisal.dev@gmail.com
-                            </a>
-                            <a href="tel:+917358874293" className="font-bold text-base mb-4 block hover:text-purple-400 transition-colors pointer-events-auto">
-                                +91 73588 74293
-                            </a>
-                            <div className="flex flex-col items-end gap-1 text-[10px] uppercase font-bold tracking-widest opacity-60 border-t border-white/10 pt-3">
-                                <span>Available for</span>
-                                <span>Freelance & Full-time</span>
-                            </div>
+                        <p className="font-bold text-base mb-1">mohamedfaisal.dev@gmail.com</p>
+                        <p className="font-bold text-base mb-8">+91 73588 74293</p>
+                        <div className="flex flex-col items-end gap-1 text-[10px] uppercase font-bold tracking-widest opacity-60">
+                            <span>For</span>
+                            <span>Inquiries</span>
                         </div>
                     </div>
 
@@ -232,7 +225,7 @@ const FooterSection = () => {
                     <div className="absolute bottom-24 left-1/2 -translate-x-1/2 z-40 pointer-events-auto flex flex-col md:flex-row gap-3 items-center">
                         <a 
                             href="mailto:mohamedfaisal.dev@gmail.com"
-                            className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2 md:px-8 md:py-3 rounded-full font-bold flex items-center gap-2 hover:scale-110 transition-transform shadow-lg shadow-purple-500/30"
+                            className="bg-white text-black px-6 py-2 md:px-8 md:py-3 rounded-full font-bold flex items-center gap-2 hover:scale-110 transition-transform shadow-lg shadow-white/20"
                         >
                             Get in Touch
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -242,7 +235,7 @@ const FooterSection = () => {
                         </a>
                         <a 
                             href="tel:+917358874293"
-                            className="bg-white text-black px-6 py-2 md:px-8 md:py-3 rounded-full font-bold flex items-center gap-2 hover:scale-110 transition-transform shadow-lg shadow-white/20"
+                            className="bg-white/10 backdrop-blur-sm text-white px-6 py-2 md:px-8 md:py-3 rounded-full font-bold flex items-center gap-2 hover:scale-110 transition-transform shadow-lg border border-white/20"
                         >
                             Call Now
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -252,21 +245,20 @@ const FooterSection = () => {
                     </div>
                 </div>
 
-                {/* Footer Links - Very Small Font */}
-                <div className="absolute bottom-6 md:bottom-10 w-full px-6 md:px-12 flex flex-col md:flex-row justify-between items-center md:items-end gap-4 text-[7px] md:text-[8px] uppercase font-bold tracking-widest opacity-40 font-mono z-20">
-                    <div className="flex flex-col gap-2 items-center md:items-start">
+                {/* Footer Links */}
+                <div className="absolute bottom-6 md:bottom-10 w-full px-6 md:px-12 flex justify-between items-end text-[7px] md:text-[8px] uppercase font-bold tracking-widest opacity-40 font-mono z-20">
+                    <div className="flex flex-col gap-2">
                         <div className="w-8 h-[1px] bg-white mb-2"></div>
-                        <p className="text-center md:text-left">©2026 PORTFOLIO SHOWCASE - CLONED FOR DEMONSTRATION</p>
-                        <p className="text-purple-400 opacity-60">Original Design by Jesko Jets | Recreated by Mohamed Faisal</p>
+                        <p>©2026 Mohamed Faisal. All Rights Reserved</p>
                     </div>
-                    <div className="flex flex-col md:flex-row gap-4 md:gap-10 items-center">
-                        <div className="flex flex-col gap-1 items-center md:items-start">
-                            <span className="text-purple-400">Showcasing Skills:</span>
-                            <span className="opacity-60">Next.js • GSAP • Three.js • Tailwind</span>
+                    <p className="hidden md:block cursor-pointer hover:opacity-100">Contact</p>
+                    <div className="flex gap-10">
+                        <div className="flex flex-col gap-1 items-start">
+                            <span>Web Developer</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <span>Mohamed Faisal</span>
-                            <div className="w-3 h-3 border border-purple-400 rounded-full animate-pulse"></div>
+                            <span>Available for Hire</span>
+                            <div className="w-3 h-3 border border-white rounded-full"></div>
                         </div>
                     </div>
                 </div>
