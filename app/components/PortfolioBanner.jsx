@@ -23,10 +23,10 @@ const PortfolioBanner = () => {
             📧 Hire Me
           </a>
           <a
-            href="tel:+971544325050"
+            href="tel:+917358874293"
             className="bg-black/30 backdrop-blur-sm px-4 py-2 rounded-full font-bold text-xs md:text-sm hover:scale-105 transition-transform"
           >
-            📞 +971 54 432 5050
+            📞 +91 73588 74293
           </a>
         </div>
       </div>

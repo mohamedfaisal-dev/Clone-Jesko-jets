@@ -200,8 +200,8 @@ const FooterSection = () => {
                             <a href="mailto:mohamedfaisal.dev@gmail.com" className="font-bold text-base mb-2 block hover:text-purple-400 transition-colors pointer-events-auto">
                                 mohamedfaisal.dev@gmail.com
                             </a>
-                            <a href="tel:+971544325050" className="font-bold text-base mb-4 block hover:text-purple-400 transition-colors pointer-events-auto">
-                                +971 54 432 5050
+                            <a href="tel:+917358874293" className="font-bold text-base mb-4 block hover:text-purple-400 transition-colors pointer-events-auto">
+                                +91 73588 74293
                             </a>
                             <div className="flex flex-col items-end gap-1 text-[10px] uppercase font-bold tracking-widest opacity-60 border-t border-white/10 pt-3">
                                 <span>Available for</span>
@@ -241,7 +241,7 @@ const FooterSection = () => {
                             </svg>
                         </a>
                         <a 
-                            href="tel:+971544325050"
+                            href="tel:+917358874293"
                             className="bg-white text-black px-6 py-2 md:px-8 md:py-3 rounded-full font-bold flex items-center gap-2 hover:scale-110 transition-transform shadow-lg shadow-white/20"
                         >
                             Call Now

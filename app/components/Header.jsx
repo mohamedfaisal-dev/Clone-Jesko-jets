@@ -12,7 +12,7 @@ export default function Header() {
 
       <ul className="flex justify-center items-center gap-8 font-medium">
         <li className="cursor-pointer hover:text-gray-400 transition-colors">
-          <a href="tel:+971544325050">+971 54 432 5050</a>
+          <a href="tel:+917358874293">+91 73588 74293</a>
         </li>
         <li className="cursor-pointer hover:text-gray-400 transition-colors">
           <a href="mailto:mohamedfaisal.dev@gmail.com">mohamedfaisal.dev@gmail.com</a>
