@@ -2,6 +2,10 @@
 
 An immersive, Awwwards-inspired luxury private aviation platform built to deliver a premium, high-performance web experience. Combining advanced scroll animations, 3D visual effects, and fluid typography, this application redefines digital luxury travel interfaces.
 
+## 🌐 Live Demo
+
+**[View Live Website →](https://clone-jesko-jets.vercel.app)**
+
 ---
 
 ## 🚀 Tech Stack
@@ -71,4 +75,12 @@ This project demonstrates **cutting-edge front-end engineering**—specifically 
 ## 📩 Contact
 
 * **Email:** [mohamedfaisal.dev@gmail.com](mailto:mohamedfaisal.dev@gmail.com)
-* **GitHub:** [mohamedfaisal.dev](https://github.com/mohamedfaisal.dev)
+* **Phone:** +91 73588 74293
+* **GitHub:** [mohamedfaisal-dev](https://github.com/mohamedfaisal-dev)
+* **Live Site:** [https://clone-jesko-jets.vercel.app](https://clone-jesko-jets.vercel.app)
+
+---
+
+## 📄 License
+
+This project is a portfolio demonstration showcasing web development skills. Original design inspiration from luxury aviation websites.
