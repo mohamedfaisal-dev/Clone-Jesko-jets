@@ -193,13 +193,20 @@ const FooterSection = () => {
                         </h2>
                     </div>
 
-                    {/* Right Text */}
+                    {/* Right Text - Contact Info */}
                     <div className="hidden md:block absolute right-10 lg:right-20 top-1/2 -translate-y-1/2 text-right z-20 pointer-events-none">
-                        <p className="font-bold text-base mb-1">info@allshadejets.com</p>
-                        <p className="font-bold text-base mb-8">+971 54 432 5050</p>
-                        <div className="flex flex-col items-end gap-1 text-[10px] uppercase font-bold tracking-widest opacity-60">
-                            <span>For</span>
-                            <span>Inquiries</span>
+                        <div className="mb-6 p-4 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
+                            <p className="text-xs uppercase tracking-wider opacity-60 mb-3">Portfolio Contact</p>
+                            <a href="mailto:mohamedfaisal.dev@gmail.com" className="font-bold text-base mb-2 block hover:text-purple-400 transition-colors pointer-events-auto">
+                                mohamedfaisal.dev@gmail.com
+                            </a>
+                            <a href="tel:+971544325050" className="font-bold text-base mb-4 block hover:text-purple-400 transition-colors pointer-events-auto">
+                                +971 54 432 5050
+                            </a>
+                            <div className="flex flex-col items-end gap-1 text-[10px] uppercase font-bold tracking-widest opacity-60 border-t border-white/10 pt-3">
+                                <span>Available for</span>
+                                <span>Freelance & Full-time</span>
+                            </div>
                         </div>
                     </div>
 
@@ -221,32 +228,45 @@ const FooterSection = () => {
                         />
                     </Canvas>
 
-                    {/* Book Button - Moved to Bottom */}
-                    <div className="absolute bottom-24 left-1/2 -translate-x-1/2 z-40 pointer-events-auto">
-                        <button className="bg-white text-black px-6 py-2 md:px-8 md:py-3 rounded-full font-bold flex items-center gap-2 hover:scale-110 transition-transform shadow-lg shadow-white/20">
-                            Book the Flight
+                    {/* Contact Buttons - Moved to Bottom */}
+                    <div className="absolute bottom-24 left-1/2 -translate-x-1/2 z-40 pointer-events-auto flex flex-col md:flex-row gap-3 items-center">
+                        <a 
+                            href="mailto:mohamedfaisal.dev@gmail.com"
+                            className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2 md:px-8 md:py-3 rounded-full font-bold flex items-center gap-2 hover:scale-110 transition-transform shadow-lg shadow-purple-500/30"
+                        >
+                            Get in Touch
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M22 2L11 13"></path>
                                 <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
                             </svg>
-                        </button>
+                        </a>
+                        <a 
+                            href="tel:+971544325050"
+                            className="bg-white text-black px-6 py-2 md:px-8 md:py-3 rounded-full font-bold flex items-center gap-2 hover:scale-110 transition-transform shadow-lg shadow-white/20"
+                        >
+                            Call Now
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
                 {/* Footer Links - Very Small Font */}
-                <div className="absolute bottom-6 md:bottom-10 w-full px-6 md:px-12 flex justify-between items-end text-[7px] md:text-[8px] uppercase font-bold tracking-widest opacity-40 font-mono z-20">
-                    <div className="flex flex-col gap-4">
+                <div className="absolute bottom-6 md:bottom-10 w-full px-6 md:px-12 flex flex-col md:flex-row justify-between items-center md:items-end gap-4 text-[7px] md:text-[8px] uppercase font-bold tracking-widest opacity-40 font-mono z-20">
+                    <div className="flex flex-col gap-2 items-center md:items-start">
                         <div className="w-8 h-[1px] bg-white mb-2"></div>
-                        <p>©2026 ALL SHADE JETS. AN AKHLAQ VENTURES COMPANY. ALL RIGHTS RESERVED</p>
+                        <p className="text-center md:text-left">©2026 PORTFOLIO SHOWCASE - CLONED FOR DEMONSTRATION</p>
+                        <p className="text-purple-400 opacity-60">Original Design by Jesko Jets | Recreated by Mohamed Faisal</p>
                     </div>
-                    <p className="hidden md:block cursor-pointer hover:opacity-100">Privacy Policy</p>
-                    <div className="flex gap-10">
-                        <div className="flex flex-col gap-1 items-start">
-                            <span>Made By</span>
+                    <div className="flex flex-col md:flex-row gap-4 md:gap-10 items-center">
+                        <div className="flex flex-col gap-1 items-center md:items-start">
+                            <span className="text-purple-400">Showcasing Skills:</span>
+                            <span className="opacity-60">Next.js • GSAP • Three.js • Tailwind</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <span>The First The Last</span>
-                            <div className="w-3 h-3 border border-white rounded-full"></div>
+                            <span>Mohamed Faisal</span>
+                            <div className="w-3 h-3 border border-purple-400 rounded-full animate-pulse"></div>
                         </div>
                     </div>
                 </div>

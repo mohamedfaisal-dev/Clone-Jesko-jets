@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="w-screen xl:h-16 hidden xl:flex justify-between items-center fixed top-0 z-[999] px-16 py-12 ">
+    <header className="w-screen xl:h-16 hidden xl:flex justify-between items-center fixed top-[60px] z-[999] px-16 py-12 ">
       <nav>
         <ul className="flex justify-center items-center gap-8 font-medium">
           <li className="cursor-pointer hover:text-gray-400 transition-colors">About</li>
@@ -11,8 +11,12 @@ export default function Header() {
       </nav>
 
       <ul className="flex justify-center items-center gap-8 font-medium">
-        <li className="cursor-pointer hover:text-gray-400 transition-colors">+1 (888) SHADE-VIP</li>
-        <li className="cursor-pointer hover:text-gray-400 transition-colors">concierge@allshadejets.com</li>
+        <li className="cursor-pointer hover:text-gray-400 transition-colors">
+          <a href="tel:+971544325050">+971 54 432 5050</a>
+        </li>
+        <li className="cursor-pointer hover:text-gray-400 transition-colors">
+          <a href="mailto:mohamedfaisal.dev@gmail.com">mohamedfaisal.dev@gmail.com</a>
+        </li>
       </ul>
     </header>
   );

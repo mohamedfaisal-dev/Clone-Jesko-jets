@@ -9,6 +9,7 @@ import dynamic from "next/dynamic";
 
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import PortfolioBanner from "./components/PortfolioBanner";
 
 const AboutSection = dynamic(() => import("./components/AboutSection"));
 const FlightSection = dynamic(() => import("./components/FlightSection"));
@@ -32,6 +33,7 @@ export default function Home() {
 
   return (
     <main className="w-screen">
+      <PortfolioBanner />
       {!isMobile ? (
         <>
           <Header />
